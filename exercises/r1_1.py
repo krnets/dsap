@@ -11,5 +11,5 @@ def is_multiple(n, m):
 
 
 if __name__ == "__main__":
-    a, b = input("Enter two whole numbers separated by space: ").split()
+    a, b = input("Enter two integers separated by space: ").split()
     print("is " + a + " multiple of " + b + "?\n", is_multiple(int(a), int(b)))
